@@ -1,4 +1,5 @@
-dev dependencies:
-express
-mongoose
-body-parser
+##### dev dependencies:
+- express
+- mongoose
+- body-parser 
+- nodemon
