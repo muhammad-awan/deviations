@@ -5,6 +5,7 @@ var bodyParser = require('body-parser')
 Genre = require('./models/genre')
 Book = require('./models/book')
 
+app.use(express.static(__dirname+'/client'))
 app.use(bodyParser.json())
 
 mongoose.connect('mongodb://localhost/deviations')
